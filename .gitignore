@@ -1,0 +1,10 @@
+*.pyc
+
+#pycharm
+/.idea/*
+
+/build/*
+/dist/*
+*.spec
+
+ErrorLog.txt
