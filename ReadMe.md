@@ -24,22 +24,19 @@ See requirements.txt
 2) Install dependencies (make sure to enter env first)
     - Build with pip: `pip install -r requirements.txt`
 
-Windows:
-    A .exe is checked in (should be up-to-date, though I'm manually maintaining it,
-    since it needs to build in Windows, and build server is linux)
-    If you want to rebuild, using the following commands output to `dist\Snake.exe`
+3) Run: `python Main.py`
 
-    ```	
+# Windows .exe:
+    To build the .exe, use the following commands (output defaults to `dist\Snake.exe`):
+
     pip install pyinstaller
 	pyinstaller --onefile --name Snake.exe Main.py
-	```
 
-# Future Improvements
 
-## Medium Priority
-- Unit Testing
+# Makefile
+Use `make all` prior to commit. (With WSL, you can install on Windows)
 
-## Low Priority:
-- Fix Pause UX for .exe build
+# Future Improvements (low priority)
+- Unit Testing 
+- Fix Pause UX for .exe build (font file isn't being added to .exe correctly, so text is not showing)
 - Fix apple spawning (so that apples never spawn behind a snake)
-- Make "X" close the window
