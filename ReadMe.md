@@ -33,7 +33,7 @@ See requirements.txt
 	pyinstaller --onefile --name Snake.exe Main.py
 
 
-# Makefile
+# Makefile (Linux)
 Use `make all` prior to commit. (With WSL, you can install on Windows)
 
 # Future Improvements (low priority)
